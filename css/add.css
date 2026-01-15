@@ -27,6 +27,23 @@
     text-decoration: none;
     padding-bottom: 8px;
     transition: opacity 0.2s;
+
+}
+
+/* pallino di notifica */
+.reel-nav a.notifica {
+    position: relative;
+}
+
+.reel-nav a.notifica::after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    right: -6px;
+    width: 6px;
+    height: 6px;
+    background: #ff2d55;
+    border-radius: 50%;
 }
 
 /* linea corta sotto la parola attiva */
@@ -53,3 +70,4 @@
 }
 
 /* #endregion header */
+
