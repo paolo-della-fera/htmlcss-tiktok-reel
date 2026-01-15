@@ -71,3 +71,63 @@
 
 /* #endregion header */
 
+
+/* #region sidebar */
+
+/* foto profilo */
+.sidebar img {
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* bottoni sidebar */
+.sidebar .side-btn {
+    color: white;
+    padding-top: 2rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.side-btn i {
+    font-size: 30px;
+}
+
+.side-btn span {
+    font-size: 15px;
+}
+
+/* follow badge */
+.profile-badge {
+    position: relative;
+    width: 50px;
+    margin-bottom: 10px;
+
+    .profile-badge img {
+        width: 100%;
+        border-radius: 50%;
+    }
+}
+
+
+.profile-plus {
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    transform: translateX(-50%);
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ff2d55;
+
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* #endregion sidebar */
