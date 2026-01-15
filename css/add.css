@@ -93,11 +93,11 @@
 }
 
 .side-btn i {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .side-btn span {
-    font-size: 15px;
+    font-size: 10px;
 }
 
 /* follow badge */
@@ -131,3 +131,98 @@
 }
 
 /* #endregion sidebar */
+
+
+/* #region footer */
+
+
+.reel-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reel-caption {
+    margin-bottom: 6px;
+    margin-left: 6px
+}
+
+.reel-caption .username {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.reel-caption .description {
+    font-size: 14px;
+    line-height: 1.2;
+    margin-top: 0.5rem;
+}
+
+.reel-caption .vedi-altro {
+    font-weight: 600;
+}
+
+
+.button-nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 8px 10px;
+}
+
+.nav-item {
+    position: relative;
+    width: 20%;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+}
+
+.nav-item i {
+    /* amici-profilo */
+    font-size: 22px;
+    line-height: 1;
+    color: white;
+
+    /* home */
+    .nav-item.active {
+        color: white;
+    }
+}
+
+/* pulsante new-video */
+.new-video .plus {
+    width: 45px;
+    height: 32px;
+    border-left: 5px solid #00ffff;
+    border-right: 5px solid #ff0052;
+    border-radius: 10px;
+    background: white;
+    color: black;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 900;
+}
+
+/* badge messaggi */
+.inbox .badge {
+    position: absolute;
+    top: -8px;
+    right: 25px;
+    min-width: 18px;
+    height: 18px;
+    border-radius: 999px;
+    background: #ff2d55;
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px;
+}

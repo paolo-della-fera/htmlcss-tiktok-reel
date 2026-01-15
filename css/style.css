@@ -64,10 +64,10 @@ footer {
 Regole per evidenziare i blocchi 
 da rimuovere una volta concluso
 --------------------- */
-.debug footer {
+/* .debug footer {
 	min-height: 100px;
 	border: 2px dashed #fff;
-}
+} */
 
 /* .debug .sidebar {
 	min-width: 80px;
